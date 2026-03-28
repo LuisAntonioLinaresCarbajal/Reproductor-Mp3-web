@@ -1,0 +1,65 @@
+/*cambiar el cuerpo completo de la pagina 
+para darle formato*/
+body{
+    /*color del fondo*/
+    background: blue;
+    /*color de las letras*/
+    color: white;
+    /*estilo de la letra*/
+    font-family: 'Times New Roman', Times, serif;
+    /*mostrar el contenido*/
+    display: flex;
+    /*alinear objetos al centro*/
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+/*modificar la ventana del reproductor*/
+.player{
+    background: green;
+    /*margen superior*/
+    padding: 20px;
+    /*redondear esquinas*/
+    border-radius: 12px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.button{
+    /*color*/
+    background: white;
+    /*contorno*/
+    border: none;
+    /*margin*/
+    margin: 15px 0;
+    /*redondear esquinas*/
+    border-radius: 8px;
+    cursor: pointer;
+    /*tamaño del icono reproducir en el boton*/
+    font-size: 18px;
+}
+/*linea de progreso*/
+.progress-container{
+    /*anchura*/
+    width: 100%;
+    height: 6px;
+    background: red;
+    border-radius: 5px;
+    cursor: pointer;/*darle click a la barra*/
+}
+/*el progreso*/
+.progress{
+    height: 100%;
+    width: 0%;
+    background: white;
+    border-radius: 5px;
+}
+.time{
+    display: flex;
+    /*el tiempo incial en 0 y en la 
+    parte final de la barra el tiempo final del audio*/
+    justify-content: space-between;
+    font-size: 14px;
+    /*margen superior*/
+    margin-top: 8px;
+}

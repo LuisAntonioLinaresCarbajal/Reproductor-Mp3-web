@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor mp3</title>
+    <!--agregar hojas de estilos-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--bloque reproducir-->
+    <div class="player">
+    <!--heading para el nombre del reproductor-->
+    <h1 class="titulo">🎶Reproductor Mp3 Devantgames🎶</h1>
+    <!--agregar audio-->
+    <audio src="assets/lol.mp3" id="audio"></audio>
+    <!--agregar boton reproducir-->
+    <button id="play" class="button">▶️</button>
+    <!--agrgear barra de progreso -->
+    <div class="progress-container" id="progressContainer">
+        <div class="progress" id="progress"></div>
+    </div>
+    <!--tiempo-->
+    <div class="time">
+        <span id="current">0:00</span>
+        <span id="duration">0:00</span>
+    </div>
+    </div>
+    <!--scripts-->
+    <script src="js/script.js"></script>
+</body>
+</html>
